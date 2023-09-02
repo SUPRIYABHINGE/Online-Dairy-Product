@@ -105,7 +105,7 @@ function UsersList() {
                                 <th>Email</th>
                                 <th>Address</th>
                                 <th>Is admin?</th>
-                                
+                                <th>Password</th>
                                 <th>Function</th>
                             </tr>
                         </thead>
@@ -120,7 +120,7 @@ function UsersList() {
                                         <td>{u.email}</td>
                                         <td>{u.address}</td>
                                         <td>{u.isadmin ? "Yes" : "No"}</td>
-                                        
+                                        <td>{u.password}</td>
                                         <td>
 
                                             {/* Modal Trigger for User Update */}
@@ -167,7 +167,7 @@ function UsersList() {
                                                                     />
                                                                 </div>
 
-                                                                <div className="col mb-3" style={{ display: 'none' }}>
+                                                                <div className="col mb-3">
                                                                     <label className="mb-2 text-muted" htmlFor="password">Password</label>
                                                                     <input id="password" type="text" className="form-control" name="password" required
                                                                         value={password}
