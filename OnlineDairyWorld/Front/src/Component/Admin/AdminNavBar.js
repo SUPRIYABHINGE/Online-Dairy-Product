@@ -45,6 +45,10 @@ function AdminNavBar() {
                             <div className="navbar-nav ms-auto">
                                 <a className="nav-item nav-link disabled fw-bolder text-black" style={{letterSpacing : '4px'}}>Admin Dashboard</a>
                             </div>
+                            <div className="nav-item">
+                               <a className="nav-item nav-link disabled fw-bolder text-black" style={{letterSpacing : '4px'}} />
+                               <a href="/getOrder">View orders</a>
+                            </div>
                             <div className="navbar-nav dropdown ms-auto">
                                 <a className="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-person-circle" viewBox="0 0 16 16">

@@ -176,7 +176,7 @@ function ProductsList() {
                         <div className="modal-dialog">
                             <div className="modal-content">
                                 <div className="modal-header">
-                                    <h5 className="modal-title" id="exampleModalToggleLabel">Choose Farmer</h5>
+                                    <h5 className="modal-title" id="exampleModalToggleLabel">Choose Supplier</h5>
                                     <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div className="modal-body">
@@ -238,7 +238,7 @@ function ProductsList() {
                                         <td>{p.category.categoryName}</td>
                                         <td>
                                             <figure>
-                                                <img src={`http://localhost:8087/FarmersMarketplace/admin/${p.id}`} alt='productImage' width={75} />
+                                                <img src={``} alt='productImage' width={75} />
                                                 <figcaption> {p.imagePath} </figcaption>
                                             </figure>
                                         </td>
