@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OnlineDairyWorld2.props" />
+</Project>
